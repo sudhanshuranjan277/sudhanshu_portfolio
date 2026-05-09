@@ -1,52 +1,52 @@
-import { useEffect } from "react";
+import React from "react";
 import "@/App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
-
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
-
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await axios.get(`${API}/`);
-      console.log(response.data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
-    }
-  };
-
-  useEffect(() => {
-    helloWorldApi();
-  }, []);
-
-  return (
-    <div>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
-    </div>
-  );
-};
+import { Toaster } from "sonner";
+import CustomCursor from "@/components/CustomCursor";
+import ParticleBg from "@/components/ParticleBg";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
+import Skills from "@/components/sections/Skills";
+import Projects from "@/components/sections/Projects";
+import AIMLSection from "@/components/sections/AIMLSection";
+import GitHubStats from "@/components/sections/GitHubStats";
+import Journey from "@/components/sections/Journey";
+import DSA from "@/components/sections/DSA";
+import Certifications from "@/components/sections/Certifications";
+import Contact from "@/components/sections/Contact";
+import Footer from "@/components/sections/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+    <div className="relative min-h-screen bg-[#05050A] text-gray-100 font-body overflow-x-hidden">
+      <CustomCursor />
+      <ParticleBg />
+      <Navbar />
+      <main className="relative z-10">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <AIMLSection />
+        <GitHubStats />
+        <Journey />
+        <DSA />
+        <Certifications />
+        <Contact />
+      </main>
+      <Footer />
+      <Toaster
+        theme="dark"
+        position="bottom-right"
+        toastOptions={{
+          style: {
+            background: "rgba(10,10,15,0.9)",
+            border: "1px solid rgba(0,240,255,0.3)",
+            color: "#F3F4F6",
+            backdropFilter: "blur(12px)",
+          },
+        }}
+      />
     </div>
   );
 }
