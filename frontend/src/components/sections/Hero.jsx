@@ -72,7 +72,7 @@ export default function Hero() {
             &gt; init.developer( )
           </p>
 
-          <h1 className="font-heading text-5xl font-black leading-[1.02] tracking-tighter sm:text-6xl lg:text-7xl xl:text-[88px]">
+          <h1 className="font-heading text-[40px] font-black leading-[1.02] tracking-tighter break-words sm:text-6xl lg:text-7xl xl:text-[88px]">
             <span className="block text-white">Sudhanshu</span>
             <span className="block text-gradient">Ranjan</span>
           </h1>
