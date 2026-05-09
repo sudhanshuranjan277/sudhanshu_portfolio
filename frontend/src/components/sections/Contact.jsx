@@ -214,6 +214,3 @@ function Field({ label, id, children }) {
     </label>
   );
 }
->
-  );
-}
