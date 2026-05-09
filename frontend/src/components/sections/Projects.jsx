@@ -20,7 +20,7 @@ export default function Projects() {
     <section
       id="projects"
       data-testid="projects-section"
-      className="relative px-6 py-24 sm:px-8 sm:py-32 lg:px-12 lg:py-40"
+      className="relative px-5 py-16 sm:px-8 sm:py-28 lg:px-12 lg:py-40"
     >
       <div className="mx-auto max-w-7xl">
         <motion.div
@@ -34,7 +34,7 @@ export default function Projects() {
             <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan-400">
               // 03 — featured work
             </p>
-            <h2 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            <h2 className="font-heading text-3xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               Selected <span className="text-gradient">projects</span> & systems.
             </h2>
           </div>
@@ -56,7 +56,7 @@ export default function Projects() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.55, delay: (i % 4) * 0.08 }}
               whileHover={{ y: -4 }}
-              className={`group relative overflow-hidden rounded-2xl border border-white/5 bg-[#0A0A0F] p-7 text-left transition-all duration-300 hover:border-cyan-500/40 hover:shadow-[0_0_40px_rgba(0,240,255,0.12)] md:col-span-4 ${p.span || "lg:col-span-6"}`}
+              className={`group relative overflow-hidden rounded-2xl border border-white/5 bg-[#0A0A0F] p-5 sm:p-7 text-left transition-all duration-300 hover:border-cyan-500/40 hover:shadow-[0_0_40px_rgba(0,240,255,0.12)] md:col-span-4 ${p.span || "lg:col-span-6"}`}
             >
               <div className="absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 <div className="absolute -top-20 -right-20 h-60 w-60 rounded-full bg-cyan-500/10 blur-3xl" />
@@ -71,7 +71,7 @@ export default function Projects() {
                   <ArrowUpRight className="h-5 w-5 text-gray-500 transition-all duration-300 group-hover:rotate-45 group-hover:text-cyan-400" />
                 </div>
 
-                <h3 className="mt-5 font-heading text-2xl font-bold leading-tight text-white sm:text-3xl">
+                <h3 className="mt-5 font-heading text-xl font-bold leading-tight text-white sm:text-2xl lg:text-3xl">
                   {p.title}
                 </h3>
                 <p className="mt-3 max-w-2xl text-sm leading-relaxed text-gray-400">

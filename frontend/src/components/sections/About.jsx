@@ -37,7 +37,7 @@ export default function About() {
     <section
       id="about"
       data-testid="about-section"
-      className="relative px-6 py-24 sm:px-8 sm:py-32 lg:px-12 lg:py-40"
+      className="relative px-5 py-16 sm:px-8 sm:py-28 lg:px-12 lg:py-40"
     >
       <div className="mx-auto max-w-7xl">
         <motion.div
@@ -50,7 +50,7 @@ export default function About() {
           <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan-400">
             // 01 — about
           </p>
-          <h2 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h2 className="font-heading text-3xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Engineer at the <span className="text-gradient">intersection</span> of code & intelligence.
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-gray-400 sm:text-lg">

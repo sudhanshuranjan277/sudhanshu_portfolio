@@ -41,7 +41,7 @@ export default function Contact() {
     <section
       id="contact"
       data-testid="contact-section"
-      className="relative px-6 py-24 sm:px-8 sm:py-32 lg:px-12 lg:py-40"
+      className="relative px-5 py-16 sm:px-8 sm:py-28 lg:px-12 lg:py-40"
     >
       <div className="mx-auto max-w-7xl">
         <motion.div
@@ -54,7 +54,7 @@ export default function Contact() {
           <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan-400">
             // 09 — contact
           </p>
-          <h2 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h2 className="font-heading text-3xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Let's <span className="text-gradient">build</span> something.
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-gray-400">
@@ -71,7 +71,7 @@ export default function Contact() {
             transition={{ duration: 0.55 }}
             className="lg:col-span-5"
           >
-            <div className="rounded-2xl border border-white/5 bg-[#0A0A0F] p-7">
+            <div className="rounded-2xl border border-white/5 bg-[#0A0A0F] p-5 sm:p-7">
               <p className="font-mono text-xs uppercase tracking-[0.3em] text-cyan-400">say hello</p>
               <h3 className="mt-3 font-heading text-2xl font-semibold text-white">
                 I'm a message away.
@@ -130,7 +130,7 @@ export default function Contact() {
             transition={{ duration: 0.55, delay: 0.1 }}
             onSubmit={submit}
             data-testid="contact-form"
-            className="rounded-2xl border border-white/5 bg-[#0A0A0F] p-7 lg:col-span-7"
+            className="rounded-2xl border border-white/5 bg-[#0A0A0F] p-5 sm:p-7 lg:col-span-7"
           >
             <div className="grid gap-4 sm:grid-cols-2">
               <Field label="Your name" id="contact-name">

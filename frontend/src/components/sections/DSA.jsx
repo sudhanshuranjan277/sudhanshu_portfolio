@@ -20,7 +20,7 @@ export default function DSA() {
     <section
       id="dsa"
       data-testid="dsa-section"
-      className="relative px-6 py-24 sm:px-8 sm:py-32 lg:px-12 lg:py-40"
+      className="relative px-5 py-16 sm:px-8 sm:py-28 lg:px-12 lg:py-40"
     >
       <div className="mx-auto max-w-7xl">
         <motion.div
@@ -33,7 +33,7 @@ export default function DSA() {
           <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan-400">
             // 07 — dsa & problem solving
           </p>
-          <h2 className="font-heading text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h2 className="font-heading text-3xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Algorithms keep me <span className="text-gradient">sharp</span>.
           </h2>
         </motion.div>

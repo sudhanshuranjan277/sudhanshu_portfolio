@@ -29,7 +29,7 @@ export default function Hero() {
     <section
       id="home"
       data-testid="hero-section"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-32 pb-20 sm:px-8 lg:px-12"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden px-5 pt-28 pb-16 sm:px-8 sm:pt-32 sm:pb-20 lg:px-12"
     >
       {/* floating tech icons */}
       <div className="pointer-events-none absolute inset-0 z-0 hidden md:block">
@@ -68,16 +68,16 @@ export default function Hero() {
             </span>
           </div>
 
-          <p className="mb-3 font-mono text-sm uppercase tracking-[0.3em] text-gray-400" data-testid="hero-greet">
+          <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-gray-400 sm:text-sm" data-testid="hero-greet">
             &gt; init.developer( )
           </p>
 
-          <h1 className="font-heading text-[40px] font-black leading-[1.02] tracking-tighter break-words sm:text-6xl lg:text-7xl xl:text-[88px]">
+          <h1 className="font-heading text-[44px] font-black leading-[1.02] tracking-tighter break-words sm:text-6xl lg:text-7xl xl:text-[88px]">
             <span className="block text-white">Sudhanshu</span>
             <span className="block text-gradient">Ranjan</span>
           </h1>
 
-          <div className="mt-6 flex items-center gap-3 font-mono text-base text-gray-300 sm:text-lg lg:text-xl">
+          <div className="mt-6 flex flex-wrap items-center gap-2 font-mono text-sm text-gray-300 sm:gap-3 sm:text-lg lg:text-xl">
             <span className="text-cyan-400">{"//"}</span>
             <TypeAnimation
               sequence={[
@@ -137,7 +137,7 @@ export default function Hero() {
             </motion.button>
           </div>
 
-          <div className="mt-12 flex flex-wrap gap-x-10 gap-y-4 text-xs">
+          <div className="mt-12 flex flex-wrap gap-x-6 gap-y-4 text-xs sm:gap-x-10">
             {[
               ["10+", "Projects shipped"],
               ["AI/ML", "Specialization"],
