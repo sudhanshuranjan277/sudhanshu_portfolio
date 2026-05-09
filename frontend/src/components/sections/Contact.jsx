@@ -10,7 +10,7 @@ const SOCIALS = [
   { Icon: Github, label: "GitHub", href: "https://github.com/sudhanshuranjan277" },
   { Icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/sudhanshu-ranjan/" },
   { Icon: Twitter, label: "Twitter", href: "https://twitter.com/" },
-  { Icon: Mail, label: "Email", href: "mailto:hello@sudhanshu.dev" },
+  { Icon: Mail, label: "Email", href: "mailto:sudhanshuranjan277@gmail.com" },
 ];
 
 export default function Contact() {
@@ -212,5 +212,8 @@ function Field({ label, id, children }) {
       </span>
       {children}
     </label>
+  );
+}
+>
   );
 }

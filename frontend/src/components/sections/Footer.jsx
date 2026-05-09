@@ -43,7 +43,7 @@ export default function Footer() {
           <a href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Twitter" className="text-gray-400 hover:text-cyan-400">
             <Twitter size={16} />
           </a>
-          <a href="mailto:hello@sudhanshu.dev" aria-label="Email" className="text-gray-400 hover:text-cyan-400">
+          <a href="mailto:sudhanshuranjan277@gmail.com" aria-label="Email" className="text-gray-400 hover:text-cyan-400">
             <Mail size={16} />
           </a>
           <button
