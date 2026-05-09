@@ -66,7 +66,7 @@ export default function Navbar() {
             SR
           </span>
           <span className="hidden text-gray-300 sm:inline">
-            sudhanshu<span className="text-cyan-400">.</span>dev
+            Sudhanshu<span className="text-cyan-400"> </span>Ranjan
           </span>
         </motion.button>
 
