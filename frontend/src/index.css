@@ -60,11 +60,7 @@ body {
     color: #fff;
 }
 
-/* Cursor */
-* { cursor: none; }
-@media (max-width: 768px) {
-    * { cursor: auto; }
-}
+/* Default cursor — no custom bubble */
 
 .font-heading { font-family: 'Outfit', sans-serif; }
 .font-body { font-family: 'Inter', sans-serif; }

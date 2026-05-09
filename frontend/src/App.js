@@ -1,7 +1,6 @@
 import React from "react";
 import "@/App.css";
 import { Toaster } from "sonner";
-import CustomCursor from "@/components/CustomCursor";
 import ParticleBg from "@/components/ParticleBg";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/sections/Hero";
@@ -19,7 +18,6 @@ import Footer from "@/components/sections/Footer";
 function App() {
   return (
     <div className="relative min-h-screen bg-[#05050A] text-gray-100 font-body overflow-x-hidden">
-      <CustomCursor />
       <ParticleBg />
       <Navbar />
       <main className="relative z-10">
