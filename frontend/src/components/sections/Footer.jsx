@@ -32,7 +32,7 @@ export default function Footer() {
             <Github size={16} />
           </a>
           <a
-            href="https://www.linkedin.com/in/sudhanshu-ranjan/"
+            href="https://www.linkedin.com/in/sudhanshuranjan277/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"

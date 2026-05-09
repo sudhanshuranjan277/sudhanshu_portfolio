@@ -8,7 +8,7 @@ const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
 const SOCIALS = [
   { Icon: Github, label: "GitHub", href: "https://github.com/sudhanshuranjan277" },
-  { Icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/sudhanshu-ranjan/" },
+  { Icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/sudhanshuranjan277/" },
   { Icon: Twitter, label: "Twitter", href: "https://twitter.com/" },
   { Icon: Mail, label: "Email", href: "mailto:sudhanshuranjan277@gmail.com" },
 ];
